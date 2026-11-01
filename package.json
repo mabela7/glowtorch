@@ -5,7 +5,7 @@
   "description": "A minimal native Android flashlight app built with Capacitor",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "vite build --outDir www",
     "cap:sync": "npx cap sync android",
     "android": "npx cap open android"
   },
